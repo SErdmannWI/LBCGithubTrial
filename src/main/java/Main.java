@@ -44,6 +44,10 @@ public class Main {
 
     }
 
+    public static void audreyProgram2() {
+        TestAI mrTest = new TestAI();
+        System.out.println("Branches are better than twigs.");
+    }
     public static int menuHandler(String menuPrompt, int min, int max) {
         Scanner userInput = new Scanner(System.in);
         boolean inputValid = false;
