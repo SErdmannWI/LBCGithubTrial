@@ -37,6 +37,7 @@ public class Main {
     }
 
     public static void scottProgram() {
+        System.out.println("This is me working on my branch.");
         mainMenu();
 
     }
