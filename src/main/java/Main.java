@@ -39,6 +39,7 @@ public class Main {
     }
 
     public static void scottProgram() {
+        //testing adding a comment in second branch adding this in to try and create a merge conflict
         TestAI mrTest = new TestAI();
         System.out.println("This is me working on my branch.");
         System.out.println("The AI's uuid is: " + mrTest.getUuid());
