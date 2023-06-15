@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         mainMenu();
+        Main audreyObject = new Main();
+        System.out.println(audreyObject);
     }
 
     public static void mainMenu() {
@@ -49,6 +51,7 @@ public class Main {
         TestAI mrTest = new TestAI();
         System.out.println("Branches are better than twigs.");
     }
+
     public static int menuHandler(String menuPrompt, int min, int max) {
         Scanner userInput = new Scanner(System.in);
         boolean inputValid = false;
@@ -70,4 +73,6 @@ public class Main {
         }
         return inputValue;
     }
+
+
 }
