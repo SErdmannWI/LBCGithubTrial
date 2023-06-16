@@ -25,6 +25,7 @@ public class Main {
 
     public static void joshProgram() {
         mainMenu();
+        System.out.println("Im helping with this line");
 
     }
 
