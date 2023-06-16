@@ -45,6 +45,7 @@ public class Main {
         System.out.println("This is me working on my branch.");
         System.out.println("The AI's uuid is: " + mrTest.getUuid());
         mainMenu();
+        Car testCar = new Car("Name", 50.0, true);
 
     }
 
